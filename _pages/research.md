@@ -17,6 +17,9 @@ My research interests broadly encompass graph representation learning and geomet
 
 
 ### Talks
+* June 6, 2025 - Gave a talk titled [Learning on Graphs: Strategies for Improving and Understanding Generalization in Graph Neural Networks](https://www.linkedin.com/posts/kletech-center-of-excellence-in-visual-intelligence-cevi_neurips-iclr-visionplusplus-activity-7335637116611084289-h3jn?utm_source=share&utm_medium=member_desktop&rcm=ACoAABve1eYB68zJjn33G6q9hhiYBqweTP9YvPM) at my alma mater - CEVI, KLE Technological University, Hubli, India.
+
+
 * Jan 28, 2025 - Had a funtime talking about our recently accepted NeurIPS paper with neptune.ai. The goal was to explain our research using simpler analogies intended for broader audience. The video of the talk is available [here](https://www.youtube.com/watch?v=O5yfyldy_Vw).
 
 
