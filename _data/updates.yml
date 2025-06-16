@@ -1,5 +1,10 @@
 
 
+
+- date: May , 2025
+  content: "Now pre-print alert! <a href='assets/GraphMemorization.pdf'> Finding Memo(rization) in Graph Neural Networks. Do GNNs also memorize training data? How do we explain the emergence of memorization in GNNs? Why do only certain nodes get memorized?
+  "
+  
 - date: January , 2025
   content: "Now accepted at ICLR 2025! <a href='https://arxiv.org/abs/2502.04891'>GNNs Getting ComFy : Community and Feature Similarity Guided Rewiring </a>. Why does graph rewiring via spectral gap maximization work? Should we always maximize the spectral gap? What dictates the success of these methods? Would additional information such as node features and latent community structure help better rewire the graph? These are some of the questions we investigate in this work.
   "
