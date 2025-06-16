@@ -2,7 +2,7 @@
 
 
 - date: May , 2025
-  content: "Now pre-print alert! <a href='assets/GraphMemorization.pdf'>Finding Memo(rization) in Graph Neural Networks </a>. Do GNNs also memorize training data? How do we explain the emergence of memorization in GNNs? Why do only certain nodes get memorized?
+  content: "Now pre-print alert! <a href='assets/GraphMemorization.pdf'>Finding Memo(rization) in Graph Neural Networks </a>. Do GNNs also memorize training data? How do we explain the emergence of memorization in GNNs? Why do only certain nodes get memorized? We introduce the first framework for studying label memorization in GNNs, showing that GNNs' implicit bias toward leveraging graph structure in low-homophiliic settings results in a model that memorizes. We also explain why only certain nodes are prone to memorization via a novel label disagreement score.
   "
   
 - date: January , 2025
