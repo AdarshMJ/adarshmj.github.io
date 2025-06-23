@@ -13,7 +13,7 @@ I finished my master's thesis at the [Relational Machine Learning Lab](https://r
 
 Previously, I completed my Bachelors in Electronics and Communication Engineering with [Dr. Uma Mudenagudi](https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en) as my advisor.
 
-My CV can be found [here](https://adarshmj.github.io/assets/AdarshCV.pdf).
+
 
 #### Updates
 
