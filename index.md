@@ -7,7 +7,7 @@ image: /assets/profile.jpeg
 
 My name is Adarsh Jamadandi. I have a Master's degree in Computer Science from Saarland University. My research interests include Graph Representation Learning and Geometric Deep Learning. 
 
-I am currently working as a research assistant at the [SprintML Lab](https://sprintml.com/team/), trying to understand if GNNs are also susceptible to memorization.
+I am currently working as a research assistant at the [SprintML Lab](https://sprintml.com/team/), studying the generalization behavior of graph neural networks under the supervision of Franziska Boenisch and Adam Dziedzic.
 
 I finished my master's thesis at the [Relational Machine Learning Lab](https://relationalml.github.io) under the supervision of Dr. Rebekka Burkholz.
 
