@@ -6,7 +6,7 @@ order: 6
 ---
 
 
-* I sometimes do a reading challenge on [Goodreads](https://www.goodreads.com/user/show/145296740-adarsh). If you want to chat about books, [poetry](https://smorgasbordofinhibitions.wordpress.com) and ML research feel free to reach out!
+* I sometimes do a reading challenge on [Goodreads](https://www.goodreads.com/user/show/145296740-adarsh). If you want to chat about books, [poetry](https://adarshmj.substack.com) and ML research feel free to reach out!
 
 * From 2019-2020, I worked as a research assistant on the [Underwater 3D Reconstruction](https://cevi.co.in/projects/sponsored/dst-dp) project.
   
