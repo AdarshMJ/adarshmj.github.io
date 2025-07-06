@@ -1,6 +1,6 @@
 - title: "Finding Memo(rization) in Graph Neural Networks."
   authors:    
-    - "Adarsh Jamadandi"
+    - "Adarsh Jamadandi*"
     - "Jing Xu"
     - "Adam Dziedzic"
     - "Franziska Boenisch"
@@ -12,7 +12,7 @@
   abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? Stay Tuned to find out more :P"
 
 
-- title: "GNNs Getting ComFy : Community and Feature Similarity Guided Rewiring."
+- title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring."
   authors:    
     - "Celia Rubio-Madrigal*"
     - "Adarsh Jamadandi*"
@@ -88,7 +88,7 @@
     }
 
 
-- title: "PredGAN: a deep multi-scale video prediction framework for detecting anomalies in videos."
+- title: "PredGAN: A Deep Multi-Scale Video Prediction Framework for Detecting Anomalies in Videos."
   authors:
     - "Adarsh Jamadandi"
     - "Sunidhi Kotturshettar"
