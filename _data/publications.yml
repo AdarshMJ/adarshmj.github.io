@@ -7,7 +7,7 @@
   venue: "ICLR"
   url: "https://arxiv.org/abs/2502.04891"
   code: "https://github.com/CeliaRubio/GNNs_getting_ComFy"
-  image: "/assets/publications/comfy_overview.jpg"
+  image: "/assets/publications/comfyoverview.jpg"
   note: "*Equal contributions"
   abstract: "Graph rewiring methods have emerged as a powerful technique to address over-squashing and over-smoothing in Graph Neural Networks (GNNs). However, the underlying mechanisms that drive their effectiveness remain poorly understood. In this work, we investigate why spectral gap maximization works as a rewiring objective and under what conditions it may fail. We show that maximizing the spectral gap is not always beneficial and introduce a novel framework that leverages both community structure and feature similarity to guide graph rewiring. Our method, ComFy, demonstrates superior performance across multiple benchmarks while providing theoretical insights into the rewiring process."
   bibtex: |
