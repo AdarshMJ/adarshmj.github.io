@@ -1,12 +1,12 @@
 ---
-title: "Research"
+title: "Adarsh Jamadandi - Publications"
 layout: publay
-excerpt: "Publications."
+excerpt: "Adarsh Jamadandi -- Publications."
 sitemap: false
 permalink: /publications/
 order: 3
 ---
-My research interests broadly encompass graph representation learning and geometric deep learning. 
-I am currently focusing on studying generalization behavior in Graph Neural Networks. This includes memorization vs generalization, exploring phenomena like double-descent and Grokking in GNNs.
 
-Below you will find a list of all of my publications.
+# Publications
+
+Below is a comprehensive list of my research publications in graph neural networks, geometric deep learning, and computer vision. Each entry includes the abstract, relevant links, and BibTeX citation.
