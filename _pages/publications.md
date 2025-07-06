@@ -7,4 +7,4 @@ permalink: /publications/
 order: 3
 ---
 
-Below is a comprehensive list of my research publications in graph neural networks, geometric deep learning, and computer vision. Each entry includes the abstract, relevant links, and BibTeX citation.
+My research interests broadly encompass graph representation learning and geometric deep learning. Currently I am working on understanding the generalization behavior of Graph Neural Networks. This includes understanding if, when and why GNNs memorize vs generalize, do they exhibit exotic phenomena like Double Descent, Grokking.
