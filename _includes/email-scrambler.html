@@ -1,0 +1,109 @@
+<!-- Email Scrambler Component -->
+<span class="email-scrambler" data-email="{{ include.email }}">
+  <span class="scrambled-email">{{ include.scrambled }}</span>
+  <span class="reveal-hint">(click to reveal)</span>
+</span>
+
+<style>
+.email-scrambler {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-family: monospace;
+  background-color: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.email-scrambler:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
+
+.email-scrambler.revealed {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+.scrambled-email {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.reveal-hint {
+  font-size: 0.7rem;
+  color: #6c757d;
+  margin-left: 0.3rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.email-scrambler.revealed .reveal-hint {
+  display: none;
+}
+
+/* Click animation */
+.email-scrambler:active {
+  transform: scale(0.98);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const scramblers = document.querySelectorAll('.email-scrambler');
+  
+  scramblers.forEach(function(scrambler) {
+    let isRevealed = false;
+    const originalEmail = scrambler.dataset.email;
+    const scrambledSpan = scrambler.querySelector('.scrambled-email');
+    const originalScrambled = scrambledSpan.textContent;
+    
+    scrambler.addEventListener('click', function() {
+      if (!isRevealed) {
+        // Reveal animation
+        let steps = 0;
+        const maxSteps = 8;
+        
+        const revealInterval = setInterval(function() {
+          if (steps < maxSteps) {
+            // Gradually reveal the real email
+            const progress = steps / maxSteps;
+            let tempEmail = '';
+            
+            for (let i = 0; i < originalEmail.length; i++) {
+              if (Math.random() < progress) {
+                tempEmail += originalEmail[i];
+              } else {
+                tempEmail += String.fromCharCode(97 + Math.floor(Math.random() * 26));
+              }
+            }
+            
+            scrambledSpan.textContent = tempEmail;
+            steps++;
+          } else {
+            // Final reveal
+            scrambledSpan.textContent = originalEmail;
+            scrambler.classList.add('revealed');
+            isRevealed = true;
+            clearInterval(revealInterval);
+            
+            // Make it clickable as mailto after reveal
+            setTimeout(function() {
+              scrambler.style.cursor = 'pointer';
+              scrambler.onclick = function() {
+                window.location.href = 'mailto:' + originalEmail;
+              };
+            }, 500);
+          }
+        }, 100);
+      } else {
+        // Already revealed, open email client
+        window.location.href = 'mailto:' + originalEmail;
+      }
+    });
+  });
+});
+</script>
