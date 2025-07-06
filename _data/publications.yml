@@ -1,3 +1,17 @@
+- title: "Finding Memo(rization) in Graph Neural Networks."
+  authors:    
+    - "Adarsh Jamadandi"
+    - "Jing Xu"
+    - "Adam Dziedzic"
+    - "Franziska Boenisch"
+  year: 2025
+  venue: "Pre-print"
+  url: coming soon!
+  code: coming soon!
+  image: "/assets/publications/ncmemo.jpg"
+  abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? Stay Tuned to find out more :P"
+
+
 - title: "GNNs Getting ComFy : Community and Feature Similarity Guided Rewiring."
   authors:    
     - "Celia Rubio-Madrigal*"
