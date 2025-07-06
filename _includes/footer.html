@@ -6,8 +6,10 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><a href="mailto:{{ site.email2 }}">{{ site.email2 }}</a></li>
+          <li>{% include email-scrambler.html email=site.email scrambled="adrsh.mjx@gml.cmo" %}</li>
+          {% if site.email2 %}
+          <li>{% include email-scrambler.html email=site.email2 scrambled="contact@scrmbl.com" %}</li>
+          {% endif %}
         </ul>
       </div>
       <div class="footer-col footer-col-1">
