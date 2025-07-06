@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Outreach
-permalink: /research/
+permalink: /outreach/
 order: 5
 ---
 
