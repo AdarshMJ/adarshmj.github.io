@@ -250,3 +250,53 @@
         }
     }
 }
+
+/**
+ * Fix for SVG icons
+ */
+.social-media-list svg {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-list svg {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Icon styles */
+.icon {
+    display: inline-block;
+    
+    svg {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.icon--github svg {
+    width: 16px;
+    height: 16px;
+}
+
+.icon--twitter svg {
+    width: 16px;
+    height: 16px;
+}
+
+.icon--linkedin svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Ensure all SVGs have reasonable max sizes */
+svg {
+    max-width: 100px;
+    max-height: 100px;
+}
