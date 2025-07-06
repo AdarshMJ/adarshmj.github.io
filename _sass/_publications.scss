@@ -1,6 +1,7 @@
-/* Publications page styles */
+/* Alternative approach - use pixel values for more predictable sizing */
 .publications-list {
   margin-top: 2rem;
+  font-size: 16px; /* Base font size for publications */
 }
 
 .publication-item {
@@ -58,8 +59,8 @@
 
 .pub-title {
   margin: 0 0 0.2rem 0;
-  font-size: 0.5rem;
-  font-weight: 300;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
   color: #333;
   line-height: 1.3;
 }
@@ -67,14 +68,14 @@
 .pub-authors {
   margin: 0 0 0.2rem 0;
   color: #666;
-  font-size: 0.85rem;
+  font-size: 1.0rem !important;
   line-height: 1.3;
 }
 
 .pub-venue {
   margin: 0 0 0.4rem 0;
   color: #2c5aa0;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 500;
 }
 
@@ -88,7 +89,7 @@
 
 .pub-abstract {
   margin: 0.4rem 0;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   line-height: 1.4;
   color: #555;
   display: -webkit-box;
