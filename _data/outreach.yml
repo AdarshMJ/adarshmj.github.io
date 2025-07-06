@@ -15,7 +15,7 @@
   venue: "neptune.ai"
   date: "January 28, 2025"
   type: "Online Talk"
-  image: "/assets/haiconpresentation.jpeg"
+  image: "/assets/neptune.gif"
   abstract: "Had a fun time talking about our recently accepted NeurIPS paper with neptune.ai. The goal was to explain our research using simpler analogies intended for broader audience, making complex graph neural network concepts accessible to a wider community."
   links:
     - name: "Video"
