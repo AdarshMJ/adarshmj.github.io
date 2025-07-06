@@ -56,27 +56,6 @@
       year={2021}
     }
 
-- title: "Probabilistic Word Embeddings in Kinematic Space."
-  authors:
-    - "Adarsh Jamadandi"
-    - "Rishabh Tigadoli"
-    - "Ramesh Tabib"
-    - "Uma Mudenagudi"
-  year: 2020
-  venue: "International Conference on Pattern Recognition (ICPR)"
-  url: "https://doi.org/10.1109/ICPR48806.2021.9412050"
-  image: "/assets/publications/kinematic_space.jpg"
-  abstract: "In this paper, we propose a method for learning representations in the space of Gaussian-like distribution defined on a novel geometrical space called Kinematic space. The utility of non-Euclidean geometry for deep representation learning has recently been in vogue, specifically models of hyperbolic geometry such as Poincaré and Lorentz models have proven useful for learning hierarchical representations. Going beyond manifolds with constant curvature, albeit has better representation capacity might lead to unhanding of computationally tractable tools like Riemannian optimization methods. Here, we explore a pseudo-Riemannian auxiliary Lorentzian space called Kinematic space and provide a principled approach for constructing a Gaussian-like distribution, which is compatible with gradient-based learning methods, to formulate a probabilistic word embedding framework. Contrary to, mapping lexically distributed representations to a single point vector in Euclidean space, we advocate for mapping entities to density-based representations, as it provides explicit control over the uncertainty in representations. We test our framework by embedding WordNet-Noun hierarchy, a large lexical database, our experiments report strong consistent improvements in Mean Rank and Mean Average Precision (MAP) values compared to probabilistic word embedding frameworks defined on Euclidean and hyperbolic spaces. We show an average improvement of 72.68% in MAP and 82.60% in Rank compared to the hyperbolic version. Our work serves as evidence for the utility of novel geometrical spaces for learning hierarchical representations."
-  bibtex: |
-    @inproceedings{jamadandi2020probabilistic,
-      title={Probabilistic Word Embeddings in Kinematic Space},
-      author={Jamadandi, Adarsh and Tigadoli, Rishabh and Tabib, Ramesh and Mudenagudi, Uma},
-      booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
-      pages={9670--9677},
-      year={2021},
-      organization={IEEE}
-    }
-
 - title: "Exemplar-based Underwater Image Enhancement Augmented by Wavelet Corrected Transforms."
   authors:
     - "Adarsh Jamadandi"
@@ -95,22 +74,6 @@
       year={2019}
     }
 
-- title: "Learning Hierarchical Representations in Kinematic Space."
-  authors:
-    - "Adarsh Jamadandi"
-    - "Uma Mudenagudi"
-  year: 2019
-  venue: "Graph Representation Learning Workshop, Neural Information Processing Systems (NeurIPS)"
-  url: "https://grlearning.github.io/papers/3.pdf"
-  image: "/assets/publications/hierarchical_kinematic.jpg"
-  abstract: "Learning efficient representation of data for extracting useful information to build classifiers or predictors has opened up a new avenue in machine learning called Representation Learning. Hyperbolic embeddings is one such invaluable tool developed to represent discreet, structured and symbolic data like text, graphs and trees. Embedding data in hyperbolic space has many advantages contrary to using euclidean space, as it allows for preserving the distances and other complex relationships that exists between the symbolic data. In this paper, we explore the idea of obtaining hyperbolic embeddings by studying the kinematic space, first introduced to explain the underlying connection between information theory and AdS3/CFT2 correspondence encountered in theoretical physics. We investigate how to learn embeddings in kinematic space, note that our aim is not to provide a formal algorithm, but adopt a theoretic centric approach to explain a possible new way of obtaining hyperbolic embeddings. We hope this work serves as ingress for future works that will allow for a consilience between machine learning and theoretical physics."
-  bibtex: |
-    @inproceedings{jamadandi2019learning,
-      title={Learning Hierarchical Representations in Kinematic Space},
-      author={Jamadandi, Adarsh and Mudenagudi, Uma},
-      booktitle={Graph Representation Learning Workshop, Neural Information Processing Systems},
-      year={2019}
-    }
 
 - title: "PredGAN: a deep multi-scale video prediction framework for detecting anomalies in videos."
   authors:
