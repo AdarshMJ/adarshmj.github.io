@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+    
+    <div class="publications-list">
+      {% for item in site.data.outreach %}
+      <div class="publication-item">
+        <div class="pub-row">
+          <div class="pub-image">
+            {% if item.image %}
+              <img src="{{ item.image | prepend: site.baseurl }}" alt="{{ item.title }}" class="pub-thumbnail">
+            {% else %}
+              <div class="pub-placeholder">
+                <i class="fas fa-microphone"></i>
+              </div>
+            {% endif %}
+          </div>
+          
+          <div class="pub-content">
+            <h3 class="pub-title">{{ item.title }}</h3>
+            <p class="pub-authors">
+              {{ item.type }}
+              {% if item.venue %} - {{ item.venue }}{% endif %}
+              {% if item.location %}, {{ item.location }}{% endif %}
+            </p>
+            <p class="pub-venue">
+              <strong>{{ item.date }}</strong>
+              {% if item.note %}
+                <span class="pub-note">{{ item.note }}</span>
+              {% endif %}
+            </p>
+            
+            {% if item.abstract %}
+            <div class="pub-abstract">
+              <p>{{ item.abstract }}</p>
+            </div>
+            {% endif %}
+            
+            <div class="pub-links">
+              {% if item.url %}
+                <a href="{{ item.url }}" class="pub-link paper-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Link
+                </a>
+              {% endif %}
+              {% if item.links %}
+                {% for link in item.links %}
+                  <a href="{{ link.url }}" class="pub-link code-link" target="_blank">
+                    <i class="{{ link.icon }}"></i> {{ link.name }}
+                  </a>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>
