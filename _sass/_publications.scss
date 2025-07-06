@@ -24,16 +24,17 @@
 
 .pub-image {
   flex-shrink: 0;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 
 .pub-thumbnail {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 4px;
   border: 1px solid #ddd;
+  background-color: white;
 }
 
 .pub-placeholder {
@@ -203,8 +204,8 @@
   }
   
   .pub-image {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     align-self: center;
   }
   
