@@ -28,6 +28,7 @@
 
 - title: "Tweak Labs/Silicon14 Inc."
   type: "Entrepreneurship"
+  date: "2015-2019"
   venue: "Co-founder & CTO"
   url: "https://xlr8community.github.io/"
   image: "/assets/publications/feature.jpg"
@@ -45,7 +46,7 @@
 
 - title: "Synoptycs - a video summarization engine"
   image: "/assets/publications/videopred.gif"
-  abstract: "Attempted to start a video analytics company after developing a video summarization algorithm during my Research Experience for Undergraduates (REU). Named it Synoptycs (also considered bonsAI). Pitched to investors but realized the technology was already well-established and the market was too crowded. Now exists as an obscure demo video in the vast abyss of Internet debris."
+  abstract: "Contemplated starting a video analytics company after developing a video summarization algorithm during my Research Experience for Undergraduates (REU). Named it Synoptycs (also considered bonsAI). Pitched to investors but realized the technology was already well-established and the market was too crowded. Now exists as an obscure demo video in the vast abyss of Internet debris."
   links:
     - name: "Project Website"
       url: "https://synoptycs.github.io/index.html#header2-f"
