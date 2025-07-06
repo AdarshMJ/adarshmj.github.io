@@ -56,6 +56,7 @@
       year={2021}
     }
 
+
 - title: "Exemplar-based Underwater Image Enhancement Augmented by Wavelet Corrected Transforms."
   authors:
     - "Adarsh Jamadandi"
@@ -73,6 +74,7 @@
       pages={0--0},
       year={2019}
     }
+
 
 
 - title: "PredGAN: a deep multi-scale video prediction framework for detecting anomalies in videos."
