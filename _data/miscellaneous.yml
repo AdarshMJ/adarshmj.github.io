@@ -12,24 +12,12 @@
       url: "https://adarshmj.substack.com"
       icon: "fas fa-pen-nib"
 
-- title: "Underwater 3D Reconstruction Project"
-  type: "Research Assistant"
-  date: "2019-2020"
-  venue: "CEVI, KLE Technological University"
-  url: "https://cevi.co.in/projects/sponsored/dst-dp"
-  image: "/assets/publications/underwater.jpg"
-  abstract: "Worked as a research assistant on the Underwater 3D Reconstruction project, focusing on developing novel techniques for reconstructing 3D models from underwater imagery. This work involved addressing unique challenges posed by underwater environments such as light absorption and scattering."
-  links:
-    - name: "Project Details"
-      url: "https://cevi.co.in/projects/sponsored/dst-dp"
-      icon: "fas fa-external-link-alt"
-
 - title: "First NeurIPS Experience!"
   type: "Conference Experience"
   date: "2019"
   venue: "NeurIPS Workshop on Graph Representation Learning"
   #url: "https://grlearning.github.io/papers/"
-  image: "/assets/publications/graphofthrones.jpg"
+  image: "/assets/publications/queue.gif"
   abstract: "Had a paper accepted at one of the NeurIPS workshops on Graph Representation Learning. Unfortunately, getting a visa for Canada was a nightmare and highlighted the challenges faced by researchers from developing countries in accessing prestigious conferences."
   links:
    # - name: "Workshop"
@@ -43,7 +31,7 @@
   type: "Entrepreneurship"
   venue: "Co-founder & CTO"
   url: "https://xlr8community.github.io/"
-  image: "/assets/profile.jpeg"
+  image: "/assets/publications/feature.jpg"
   abstract: "Co-founded Silicon14 (Tweak Labs) Inc. during my second year of undergraduate studies, where I served as CTO. We developed novel hardware augmentations for enabling rapid prototyping of embedded systems/IoT projects, creating a new line of micro-controller development boards."
   links:
     - name: "Hardware Project"
