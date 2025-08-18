@@ -10,6 +10,9 @@
     - name: "Substack"
       url: "https://adarshmj.substack.com"
       icon: "fas fa-pen-nib"
+    - name: "Medium"
+      url: "https://medium.com/@agreed.upfront-0r"
+      icon: "fas fa-pen-nib"
 
 - title: "First NeurIPS Experience!"
   type: "Conference Experience"
