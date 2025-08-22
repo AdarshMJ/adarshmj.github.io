@@ -6,11 +6,11 @@
   "
   
 - date: January , 2025
-  content: "Now accepted at ICLR 2025! <a href='https://adarshmj.github.io/publications/'>GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring </a>. 
+  content: "Now accepted at **ICLR 2025!** <a href='https://adarshmj.github.io/publications/'>GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring </a>. 
   "
   
 - date: September , 2024
-  content: "Accepted at NeurIPS 2024! <a href='https://adarshmj.github.io/publications/'>Spectral Graph Pruning Against Over-Squashing and Over-Smoothing</a>. 
+  content: "Accepted at **NeurIPS 2024!** <a href='https://adarshmj.github.io/publications/'>Spectral Graph Pruning Against Over-Squashing and Over-Smoothing</a>. 
   "
 
 - date: August, 2024
@@ -31,10 +31,11 @@
 - date: December, 2020
   content: "<a href='https://slideslive.com/38941753'>Graph of Thrones: Adversarial Perturbations dismantle Aristocracy in Graphs</a> is accepted at AAAI'2021 Student Poster Program, and the extended version is accepted at <a href='assets/publications/GraphofThrones.pdf'>DiffGeo4DL, NeurIPS 2020</a>."
   
-- date: November, 2020
-  content: "Probabilistic Word Embeddings in Kinematic Space, accepted at ICPR, 2020!"
+#- date: November, 2020
+  #content: "Probabilistic Word Embeddings in Kinematic Space, accepted at ICPR, 2020!"
 
 #- date: November, 2019
 #  content: "My interview with Hanna Ziady on bias and how researchers from third world countries are denied VISA for attending world's largest AI conference NeurIPS - <a href='https://edition.cnn.com/2019/11/13/tech/ai-conference-african-academics/index.html'>read here</a>."
+
 
 
