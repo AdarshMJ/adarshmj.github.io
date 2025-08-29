@@ -24,11 +24,12 @@
   content: "My master's thesis is now online! <a href='assets/Graph-TaskAlignment.pdf'>On the Importance of Graph-Task Alignment for Graph Neural Networks</a>."
   
 - date: November 2022
-  content: "Started as a research assistant at the <a href='https://relationalml.github.io'>Relational Machine Learning Group</a>, CISPA, under Prof. Dr. Rebekka Burkholz. I will be working on improving the generalizability of GNNs by tackling problems like over-squashing and over-smoothing."
+  content: "Started as a research assistant at the <a href='https://relationalml.github.io'>Relational Machine Learning Group</a>, under Dr. Rebekka Burkholz. I will be working on improving the generalizability of GNNs by tackling problems like over-squashing and over-smoothing."
   
 - date: December 2020
   content: "<a href='https://slideslive.com/38941753'>Graph of Thrones: Adversarial Perturbations dismantle Aristocracy in Graphs</a> is accepted at AAAI'2021 Student Poster Program, and the extended version is accepted at <a href='assets/publications/GraphofThrones.pdf'>DiffGeo4DL, NeurIPS 2020</a>."
   
+
 
 
 
