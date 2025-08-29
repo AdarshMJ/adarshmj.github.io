@@ -6,10 +6,10 @@
     - "Franziska Boenisch"
   year: 2025
   venue: "Pre-print Coming Soon!"
-  url: coming soon!
-  code: coming soon!
+  url: "https://arxiv.org/abs/2508.19352"
+  code: "https://github.com/AdarshMJ/MemorizationinGNNs"
   image: "/assets/publications/ncmemo.jpg"
-  abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? Stay Tuned to find out more :P"
+  abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? We propose the first framework to analyze memorization in node classification. We find novel connections to graph homophily, implicit bias of GNNs and a novel metric to find nodes highly susceptible to memorization."
 
 
 - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring."
@@ -43,7 +43,7 @@
   code: "https://github.com/RelationalML/SpectralPruningBraess"
   image: "/assets/publications/spectralpruningoverview.jpg"
   note: "*Equal contributions"
-  abstract: "We introduce the Braess Paradox in the context of Graph Neural Networks for the first time, showing that adding edges to a graph can actually hurt performance. Building on this insight, we propose a novel spectral graph pruning strategy that simultaneously addresses over-squashing and over-smoothing. Our method not only improves GNN performance but also discovers graph lottery tickets - sparse subgraphs that maintain or exceed the performance of the full graph."
+  abstract: "We introduce the Braess Paradox in the context of Graph Neural Networks for the first time, showing that adding edges that maximize spectral gap can actually hurt performance. Building on this insight, we propose a novel spectral graph pruning strategy that simultaneously addresses over-squashing and over-smoothing. Our method not only improves GNN performance but also discovers graph lottery tickets - sparse subgraphs that maintain or exceed the performance of the full graph."
   bibtex: |
     @inproceedings{jamadandi2024spectral,
       title={Spectral Pruning Against Over-Squashing and Over-Smoothing},
