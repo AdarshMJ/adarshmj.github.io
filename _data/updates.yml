@@ -1,30 +1,30 @@
 
-- date: September , 2025
+- date: September 2025
   content: "Excited to start as a PhD student at <a href = 'https://team.inria.fr/sirocco/fr/'>IRISA, Rennes! </a>. 
   "
 
-- date: May , 2025
+- date: May 2025
   content: "Now pre-print alert! <a href = 'https://adarshmj.github.io/publications/'>Memorization in Graph Neural Networks </a>. 
   "
 
-- date: March , 2025
-  content: "Started as a research assistant at <a href = 'https://sprintml.com/team/'> SprintML Lab under the supervision of Franziska Boenisch and Adam Dziedzic </a>. 
+- date: March 2025
+  content: "Started as a research assistant at <a href = 'https://sprintml.com/team/'> SprintML Lab </a> under the supervision of Franziska Boenisch and Adam Dziedzic. I will be working on uncovering memorization in Graph Neural Networks.
   "
 
   
-- date: January , 2025
+- date: January 2025
   content: "Now accepted at <strong>ICLR</strong> 2025! <a href='https://adarshmj.github.io/publications/'>GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring </a>. 
   "
   
-- date: September , 2024
+- date: September 2024
   content: "Accepted at <strong>NeurIPS</strong> 2024! <a href='https://adarshmj.github.io/publications/'>Spectral Graph Pruning Against Over-Squashing and Over-Smoothing</a>. 
   "
 
-- date: August, 2024
+- date: August 2024
   content: "My master's thesis is now online! <a href='assets/Graph-TaskAlignment.pdf'>On the Importance of Graph-Task Alignment for Graph Neural Networks</a>."
   
-#- date: November, 2022
- # content: "Started as a research assistant at the <a href='https://relationalml.github.io'>Relational Machine Learning Group</a>, CISPA, under Prof. Dr. Rebekka Burkholz. I will be working on improving the generalizability of graph neural networks by trying to tackle problems like over-squashing and over-smoothing."
+- date: November 2022
+ content: "Started as a research assistant at the <a href='https://relationalml.github.io'>Relational Machine Learning Group</a>, CISPA, under Prof. Dr. Rebekka Burkholz. I will be working on improving the generalizability of graph neural networks by trying to tackle problems like over-squashing and over-smoothing."
   
 #- date: July, 2022
  # content: "Got accepted at <a href='https://www.eeml.eu/previous-editions/eeml2022'>EEML Summer school</a>. Excited to learn about the latest in ML and AI from the best minds in the field!"
@@ -43,6 +43,7 @@
 
 #- date: November, 2019
 #  content: "My interview with Hanna Ziady on bias and how researchers from third world countries are denied VISA for attending world's largest AI conference NeurIPS - <a href='https://edition.cnn.com/2019/11/13/tech/ai-conference-african-academics/index.html'>read here</a>."
+
 
 
 
