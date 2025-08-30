@@ -1,7 +1,7 @@
 <!-- Email Scrambler Component -->
 <span class="email-scrambler" data-email="{{ include.email }}">
   <span class="scrambled-email">{{ include.scrambled }}</span>
-  <span class="reveal-hint">(click to reveal)</span>
+  <span class="reveal-hint">🥚 (Unscramble)</span>
 </span>
 
 <style>
@@ -49,6 +49,17 @@
 .email-scrambler:active {
   transform: scale(0.98);
 }
+
+/* Egg animation during unscrambling */
+.email-scrambler.unscrambling .reveal-hint {
+  animation: eggShake 0.1s infinite;
+}
+
+@keyframes eggShake {
+  0%, 100% { transform: translateX(0px); }
+  25% { transform: translateX(-1px); }
+  75% { transform: translateX(1px); }
+}
 </style>
 
 <script>
@@ -63,6 +74,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     scrambler.addEventListener('click', function() {
       if (!isRevealed) {
+        // Add unscrambling animation class
+        scrambler.classList.add('unscrambling');
+        
         // Reveal animation
         let steps = 0;
         const maxSteps = 8;
@@ -87,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Final reveal
             scrambledSpan.textContent = originalEmail;
             scrambler.classList.add('revealed');
+            scrambler.classList.remove('unscrambling');
             isRevealed = true;
             clearInterval(revealInterval);
             
