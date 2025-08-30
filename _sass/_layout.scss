@@ -254,11 +254,25 @@
 /**
  * Fix for SVG icons
  */
-.social-media-list svg {
-    width: 16px;
-    height: 16px;
+// .social-media-list svg {
+//     width: 16px;
+//     height: 16px;
+//     display: inline-block;
+//     vertical-align: middle;
+// }
+.social-media-list.horizontal-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  
+  li {
     display: inline-block;
-    vertical-align: middle;
+    margin-right: 0;
+  }
+}
+
+.social-media-list.horizontal-icons li:last-child {
+  margin-right: 0;
 }
 
 .contact-list svg {
