@@ -22,6 +22,11 @@
   transform: scale(1.02);
 }
 
+/* Disable hover transform during unscrambling */
+.email-scrambler.unscrambling:hover {
+  transform: none;
+}
+
 .email-scrambler.revealed {
   background-color: #d1ecf1;
   border-color: #bee5eb;
@@ -50,15 +55,21 @@
   transform: scale(0.98);
 }
 
+/* Disable active transform during unscrambling */
+.email-scrambler.unscrambling:active {
+  transform: none;
+}
+
 /* Egg animation during unscrambling */
 .email-scrambler.unscrambling .reveal-hint {
-  animation: eggShake 0.8s infinite;
+  animation: eggShake 0.15s infinite;
 }
 
 @keyframes eggShake {
-  0%, 100% { transform: translateX(0px); }
-  25% { transform: translateX(-3px); }
-  75% { transform: translateX(3px); }
+  0%, 100% { transform: translateX(0px) rotate(0deg); }
+  25% { transform: translateX(-2px) rotate(-1deg); }
+  50% { transform: translateX(0px) rotate(0deg); }
+  75% { transform: translateX(2px) rotate(1deg); }
 }
 </style>
 
