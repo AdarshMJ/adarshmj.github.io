@@ -17,7 +17,7 @@ Before starting my PhD, I worked as a research assistant at the [SprintML Lab](h
 I hold a Bachelor's degree in Electronics and Communication Engineering from India. 
 My thesis was on anomaly detection in videos with [Dr. Uma Mudenagudi](https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en) as my advisor.
 
-
+My [CV]() can be found here.
 
 #### Updates
 
