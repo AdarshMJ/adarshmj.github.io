@@ -1,3 +1,16 @@
+- title: "Memorization in Graph Neural Networks"
+  venue: "NeurIPS in Paris,Sorbonne Université."
+  date: "Nov 25, 2025"
+  location: "Paris, France"
+  type: "Oral Presentation"
+  url: "https://neuripsinparis.github.io/neurips2025paris/"
+  image: "/assets/publications/neuripsinparis.png"
+  abstract: "Oral presentation on our recently accepted NeurIPS paper."
+  #links:
+   #- name: "Slides"
+    # url: "https://adarshmj.github.io/assets/LoG_CEVI_Talk.pdf"
+     # icon: "fas fa-presentation"
+
 - title: "Learning on Graphs: Strategies for Improving and Understanding Generalization in Graph Neural Networks"
   venue: "CEVI, KLE Technological University, India."
   date: "June 6, 2025"
