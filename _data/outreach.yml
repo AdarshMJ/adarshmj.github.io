@@ -4,7 +4,7 @@
   location: "Paris, France"
   type: "Oral Presentation"
   url: "https://neuripsinparis.github.io/neurips2025paris/"
-  image: "/assets/publications/neuripsinparis.png"
+  image: "/assets/publications/neuripsparis.png"
   abstract: "Oral presentation on our recently accepted NeurIPS paper."
   #links:
    #- name: "Slides"
