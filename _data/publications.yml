@@ -8,6 +8,9 @@
   venue: "NeurIPS'25"
   url: "https://arxiv.org/abs/2508.19352"
   code: "https://github.com/AdarshMJ/MemorizationinGNNs"
+  - name: "Video"
+      url: "https://recorder-v3.slideslive.com/?share=107305&s=9818deeb-efb1-446b-983f-d51a2e019921"
+      icon: "fab fa-youtube"
   image: "/assets/publications/ncmemo.jpg"
   abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? We propose the first framework to analyze memorization in node classification. We find novel connections to graph homophily, implicit bias of GNNs and a novel metric to find nodes highly susceptible to memorization."
 
