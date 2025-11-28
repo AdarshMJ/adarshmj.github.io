@@ -6,10 +6,19 @@
     - "Franziska Boenisch"
   year: 2025
   venue: "NeurIPS'25"
-  url: "https://arxiv.org/abs/2508.19352"
+  url: "https://openreview.net/forum?id=jAJv3CaS4f"
   code: "https://github.com/AdarshMJ/MemorizationinGNNs"
   image: "/assets/publications/ncmemo.jpg"
   abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? We propose the first framework to analyze memorization in node classification. We find novel connections to graph homophily, implicit bias of GNNs and a novel metric to find nodes highly susceptible to memorization."
+  bibtex: |
+        @inproceedings{
+        jamadandi2025memorization,
+        title={Memorization in Graph Neural Networks},
+        author={Adarsh Jamadandi and Jing Xu and Adam Dziedzic and Franziska Boenisch},
+        booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+        year={2025},
+        url={https://openreview.net/forum?id=jAJv3CaS4f}
+        }
 
 
 - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring."
