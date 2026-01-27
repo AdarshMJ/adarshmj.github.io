@@ -1,4 +1,12 @@
 - title: "Memorization in Graph Neural Networks"
+  venue: "Graph Learning on Wednesdays (GLOW) Reading Group."
+  date: "Feb 11, 2026"
+  type: "Invited Talk"
+  url: "https://sites.google.com/view/graph-learning-on-weds"
+  image: "/assets/publications/glow.png"
+  abstract: "Invited Talk on Memorization in Graph Neural Networks."
+
+- title: "Memorization in Graph Neural Networks"
   venue: "NeurIPS in Paris,Sorbonne Université."
   date: "Nov 25, 2025"
   location: "Paris, France"
