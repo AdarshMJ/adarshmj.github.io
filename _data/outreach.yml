@@ -5,6 +5,10 @@
   url: "https://sites.google.com/view/graph-learning-on-weds"
   image: "/assets/publications/glow.png"
   abstract: "Invited Talk on Memorization in Graph Neural Networks."
+  links:
+    - name: "Video"
+      url: "https://youtu.be/To1pyIpqnEk?si=fGXaSlzuKfw8RDJ9"
+      icon: "fab fa-youtube"
 
 - title: "Memorization in Graph Neural Networks"
   venue: "NeurIPS in Paris,Sorbonne Université."
