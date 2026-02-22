@@ -13,7 +13,7 @@ layout: default
     <div class="publications-list outreach-accordion">
       {% for group in site.data.outreach %}
       <div class="outreach-group">
-        <div class="outreach-group-header">
+        <div class="outreach-group-header" onclick="this.closest('.outreach-group').classList.toggle('open')">
           <span class="outreach-group-name">{{ group.category }}</span>
         </div>
 
