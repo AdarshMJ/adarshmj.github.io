@@ -1,9 +1,9 @@
 ---
 layout: outreach
-title: Outreach
+title: Talks
 permalink: /outreach/
 order: 5
 ---
 
-Research Dissemination.
+Collection of invited talks on recently accepted works.
 
