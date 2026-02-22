@@ -4,6 +4,101 @@
   font-size: 16px; /* Base font size for publications */
 }
 
+/* ── Outreach accordion ── */
+.outreach-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.outreach-group {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.outreach-group[open] {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+.outreach-group-header {
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem 1.2rem 0.8rem;
+  background: linear-gradient(135deg, #f6f8ff 0%, #eef2fb 100%);
+  border-bottom: 1px solid #d0d7de;
+  user-select: none;
+}
+
+.outreach-group-header::-webkit-details-marker {
+  display: none;
+}
+
+.outreach-group-header::marker {
+  display: none;
+}
+
+.outreach-group-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.outreach-chevron {
+  color: #2c5aa0;
+  font-size: 0.75rem;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.outreach-group[open] .outreach-chevron {
+  transform: rotate(0deg);
+}
+
+.outreach-group:not([open]) .outreach-chevron {
+  transform: rotate(-90deg);
+}
+
+.outreach-group-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a2a4a;
+  flex: 1;
+}
+
+.outreach-talk-count {
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2c5aa0;
+  padding: 0.2rem 0.55rem;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.outreach-group-desc {
+  margin: 0.4rem 0 0 1.35rem;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.outreach-group-body {
+  padding: 1rem 1rem 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.outreach-group-body .publication-item {
+  margin-bottom: 0;
+}
+
 /* Ensure our styles take precedence */
 .publications-list .publication-item {
   font-size: 16px !important;
