@@ -12,13 +12,10 @@ layout: default
 
     <div class="publications-list outreach-accordion">
       {% for group in site.data.outreach %}
-      <details class="outreach-group" open>
-        <summary class="outreach-group-header">
+      <div class="outreach-group">
+        <div class="outreach-group-header">
           <span class="outreach-group-name">{{ group.category }}</span>
-          {% if group.image %}
-            <img src="{{ group.image | prepend: site.baseurl }}" alt="{{ group.category }}" class="outreach-group-img">
-          {% endif %}
-        </summary>
+        </div>
 
         <div class="outreach-group-body">
           {% for item in group.talks %}
@@ -73,7 +70,7 @@ layout: default
           </div>
           {% endfor %}
         </div>
-      </details>
+      </div>
       {% endfor %}
     </div>
   </article>
