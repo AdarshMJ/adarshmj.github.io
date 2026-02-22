@@ -50,6 +50,20 @@
   display: none;
 }
 
+/* Egg crack animation */
+.reveal-hint.egg-cracking {
+  animation: eggCrack 0.4s ease forwards;
+}
+
+@keyframes eggCrack {
+  0%   { transform: scale(1)    rotate(0deg);   opacity: 1; }
+  20%  { transform: scale(1.5)  rotate(-8deg);  opacity: 1; }
+  40%  { transform: scale(1.8)  rotate(6deg);   opacity: 1; }
+  60%  { transform: scale(2.0)  rotate(-4deg);  opacity: 1; }
+  80%  { transform: scale(1.6)  rotate(2deg);   opacity: 0.6; }
+  100% { transform: scale(0.5)  rotate(0deg);   opacity: 0; }
+}
+
 /* Click animation */
 .email-scrambler:active {
   transform: scale(0.98);
@@ -111,18 +125,22 @@ document.addEventListener('DOMContentLoaded', function() {
           } else {
             // Final reveal
             scrambledSpan.textContent = originalEmail;
-            scrambler.classList.add('revealed');
             scrambler.classList.remove('unscrambling');
             isRevealed = true;
             clearInterval(revealInterval);
-            
-            // Make it clickable as mailto after reveal
+
+            // Crack the egg before hiding it
+            const revealHint = scrambler.querySelector('.reveal-hint');
+            revealHint.textContent = '🍳';
+            revealHint.classList.add('egg-cracking');
+
             setTimeout(function() {
+              scrambler.classList.add('revealed');
               scrambler.style.cursor = 'pointer';
               scrambler.onclick = function() {
                 window.location.href = 'mailto:' + originalEmail;
               };
-            }, 500);
+            }, 450);
           }
         }, 100);
       } else {
