@@ -1,5 +1,6 @@
 - category: "Memorization in Graph Neural Networks"
   description: "Talks covering memorization phenomena and their implications in Graph Neural Networks."
+  image: "/assets/publications/ncmemo.jpg"
   talks:
     - title: "Memorization in Graph Neural Networks"
       venue: "Graph Learning on Wednesdays (GLOW) Reading Group."
@@ -24,6 +25,7 @@
 
 - category: "Improving Generalization via Graph Rewiring"
   description: "Talks on strategies to improve and understand generalization in GNNs through graph rewiring, addressing over-squashing and over-smoothing."
+  image: "/assets/publications/spectralpruningoverview.jpg"
   talks:
     - title: "Learning on Graphs: Strategies for Improving and Understanding Generalization in Graph Neural Networks"
       venue: "CEVI, KLE Technological University, India."
