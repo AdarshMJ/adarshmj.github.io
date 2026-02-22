@@ -14,14 +14,15 @@ layout: default
       {% for group in site.data.outreach %}
       <details class="outreach-group" open>
         <summary class="outreach-group-header">
-          <div class="outreach-group-title-row">
-            <span class="outreach-chevron"><i class="fas fa-chevron-down"></i></span>
-            <span class="outreach-group-name">{{ group.category }}</span>
-            <span class="outreach-talk-count">{{ group.talks | size }} talk{% if group.talks.size != 1 %}s{% endif %}</span>
-          </div>
-          {% if group.description %}
-          <p class="outreach-group-desc">{{ group.description }}</p>
+          {% if group.image %}
+            <img src="{{ group.image | prepend: site.baseurl }}" alt="{{ group.category }}" class="outreach-group-img">
           {% endif %}
+          <div class="outreach-group-text">
+            <span class="outreach-group-name">{{ group.category }}</span>
+            {% if group.description %}
+            <p class="outreach-group-desc">{{ group.description }}</p>
+            {% endif %}
+          </div>
         </summary>
 
         <div class="outreach-group-body">
