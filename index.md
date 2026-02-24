@@ -12,7 +12,7 @@ I'm Adarsh Jamadandi. I'm a CNRS Doctoral Researcher at IRISA, Rennes, working o
 
 Before starting my PhD, I worked as a research assistant at the [SprintML Lab](https://sprintml.com/team/) with Franziska Boenisch and Adam Dziedzic. 
 
-I completed my Master's in Computer Science at Saarland University, Germany, where I wrote my thesis at the Relational Machine Learning Lab with [Dr. Rebekka Burkholz](https://relationalml.github.io). 
+I completed my Master's in Computer Science at Saarland University, Germany, where I wrote my thesis at the Relational Machine Learning Lab with [Rebekka Burkholz](https://relationalml.github.io). 
 
 
 I hold a Bachelor's degree in Electronics and Communication Engineering from India. 
