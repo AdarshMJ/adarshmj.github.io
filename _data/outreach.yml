@@ -2,7 +2,7 @@
   description: "Talks covering memorization phenomena and their implications in Graph Neural Networks."
   image: "/assets/publications/ncmemo.jpg"
   talks:
-    -  title: Memorization in Graph Neural Networks
+    - title: Memorization in Graph Neural Networks
       venue: "Graph Learning on Wednesdays (GLOW) Reading Group."
       date: "Feb 11, 2026"
       type: "Invited Talk"
@@ -13,13 +13,13 @@
         - name: "Video"
           url: "https://youtu.be/To1pyIpqnEk?si=fGXaSlzuKfw8RDJ9"
           icon: "fab fa-youtube"
-          
-      - title: Memorization in Graph Neural Networks
+
+    - title: Memorization in Graph Neural Networks
       venue: "NeurIPS in Paris, Sorbonne Université."
       date: "Nov 25, 2025"
       location: "Paris, France"
       type: "Oral Presentation"
-      url: "https://www.linkedin.com/posts/scai-sorbonne-cluster-for-artificial-intelligence_a-look-back-at-day-1-of-neuripsparis-activity-7399399349421580288-oVq3?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABve1eYB68zJjn33G6q9hhiYBqweTP9YvPM"
+      url: "https://www.linkedin.com/posts/scai-sorbonne-cluster-for-artificial-intelligence_a-look-back-at-day-1-of-neuripsparis-activity-7399399349421580288-oVq3?utm_source=social_share_send&utm_med[...]"
       image: "/assets/publications/neuripsparis.png"
       abstract: "Oral presentation on our recently accepted NeurIPS paper."
 
@@ -32,7 +32,7 @@
       date: "June 6, 2025"
       location: "Hubli, India"
       type: "Invited Talk"
-      url: "https://www.linkedin.com/posts/kletech-center-of-excellence-in-visual-intelligence-cevi_neurips-iclr-visionplusplus-activity-7335637116611084289-h3jn?utm_source=share&utm_medium=member_desktop&rcm=ACoAABve1eYB68zJjn33G6q9hhiYBqweTP9YvPM"
+      url: "https://www.linkedin.com/posts/kletech-center-of-excellence-in-visual-intelligence-cevi_neurips-iclr-visionplusplus-activity-7335637116611084289-h3jn?utm_source=share&utm_medium=member_des[...]"
       image: "/assets/publications/cevitalk.jpg"
       abstract: "Gave a talk about my recent works on over-squashing, over-smoothing and memorization in Graph Neural Networks."
       links:
@@ -45,7 +45,7 @@
       date: "January 28, 2025"
       type: "Online Talk"
       image: "/assets/neptune.gif"
-      abstract: "Had a fun time talking about our recently accepted NeurIPS paper with neptune.ai. The goal was to explain our research using simpler analogies intended for broader audience, making complex graph neural network concepts accessible to a wider community."
+      abstract: "Had a fun time talking about our recently accepted NeurIPS paper with neptune.ai. The goal was to explain our research using simpler analogies intended for broader audience, making co[...]"
       links:
         - name: "Video"
           url: "https://www.youtube.com/watch?v=O5yfyldy_Vw"
@@ -58,7 +58,7 @@
       type: "Conference Presentation"
       url: "https://haicon24.de"
       image: "/assets/haiconpresentation.jpeg"
-      abstract: "Presented our recent work on addressing fundamental challenges in Graph Neural Networks - specifically tackling both over-squashing and over-smoothing phenomena through spectral pruning techniques. The presentation covered theoretical insights and practical applications."
+      abstract: "Presented our recent work on addressing fundamental challenges in Graph Neural Networks - specifically tackling both over-squashing and over-smoothing phenomena through spectral pruni[...]"
       links:
         - name: "Slides"
           url: "https://adarshmj.github.io/assets/Ver3_Updated_Jamadandi_Adarsh_S-05a.pdf"
