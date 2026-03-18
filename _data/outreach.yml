@@ -2,6 +2,17 @@
   description: "Talks covering memorization phenomena and their implications in Graph Neural Networks."
   image: "/assets/publications/ncmemo.jpg"
   talks:
+      - title: Memorization in Graph Neural Networks
+      venue: "Curves and Surfaces, Saint-Malo, France."
+      date: "June 12, 2026"
+      type: "Invited Talk"
+      url: "https://cs2026.sciencesconf.org/program"
+      image: "/assets/publications/curves.png"
+      abstract: "Invited Talk on Memorization in Graph Neural Networks."
+      # links:
+      #   - name: "Video"
+      #     url: "https://youtu.be/To1pyIpqnEk?si=fGXaSlzuKfw8RDJ9"
+      #     icon: "fab fa-youtube"
     - title: Memorization in Graph Neural Networks
       venue: "Graph Learning on Wednesdays (GLOW) Reading Group."
       date: "Feb 11, 2026"
