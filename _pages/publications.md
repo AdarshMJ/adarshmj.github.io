@@ -7,8 +7,8 @@ permalink: /publications/
 order: 3
 ---
 
-My research focuses on graph representation learning and geometric deep learning. My PhD will explore Graph Diffusion Models. Specifically, I am studying how symmetry constraints and equivariant architectures influence their learning dynamics. 
+My research interests are graph representation learning and geometric deep learning. Currently, I am working on graph diffusion models, where I am interested in understanding the failure modes of discrete diffusion applied to graph generation, how symmetry constraints and equivariant architectures influence their learning dynamics, and how we can scale up to large graph generation.
 
-During my masters I investigated the generalization behavior of graph neural networks, proposing approaches to mitigate structural limitations such as over-squashing and over-smoothing. I also introduced the first-ever framework demonstrating that GNNs can memorize node labels. 
+During my Master's, I investigated the generalization behavior of graph neural networks, proposing approaches to mitigate structural limitations such as over-squashing and over-smoothing. I also introduced the first framework demonstrating that GNNs can memorize node labels.
 
-In my bachelors I primarliy worked on deep learning for computer vision problems. Below you will find a list of my most representative publications.
+In my Bachelor's, I primarily worked on deep learning for computer vision problems. Below you will find a list of my most representative publications.
