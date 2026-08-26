@@ -8,7 +8,7 @@
   url: ""
   code: ""
   image: "/assets/publications/lsp.png"
-  abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? We propose the first framework to analyze memorization in node classification. We find novel connections to graph homophily, implicit bias of GNNs and a novel metric to find nodes highly susceptible to memorization."
+  abstract: "Discrete graph diffusion models corrupt the graph structure through a Markovian noise model, combined with the exchangeability requirement the terminal distribution is an E-R graph. We show that any GNN denoiser applied to an E-R graph approximately outputs an E-R graph, making effective denoising difficult. We address the root cause by introducing the Latent Sociability Prior (LSP) and a joint diffusion process that co-evolves latent node sociability variables and graph structure, removing edge independence while preserving exchangeability."
   bibtex: |
         @misc{
         jamadandi2026lsp,
