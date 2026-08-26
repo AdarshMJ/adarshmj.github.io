@@ -1,3 +1,23 @@
+- title: "When Edge-Independence Fails: Joint Diffusion with Latent Sociability Priors."
+  authors:    
+    - "Adarsh Jamadandi"
+    - "Nicolas Keriven"
+    - "Aline Roumy"
+  year: 2026
+  venue: "Pre-print'26"
+  url: ""
+  code: ""
+  image: "/assets/publications/lsp.png"
+  abstract: "Do GNNs also memorize their training data? Why are only certain nodes memorized? How do you explain the emergence of memorization in GNNs? How to mitigate memorization in GNNs? We propose the first framework to analyze memorization in node classification. We find novel connections to graph homophily, implicit bias of GNNs and a novel metric to find nodes highly susceptible to memorization."
+  bibtex: |
+        @misc{
+        jamadandi2026lsp,
+        title={When Edge-Independence Fails: Joint Diffusion with Latent Sociability Priors},
+        author={Adarsh Jamadandi and Nicolas Keriven and Aline Roumy},
+        booktitle={Pre-print},
+        year={2026}
+        }
+
 - title: "Memorization in Graph Neural Networks."
   authors:    
     - "Adarsh Jamadandi*"
