@@ -5,7 +5,7 @@
     - "Aline Roumy"
   year: 2026
   venue: "Pre-print'26"
-  url: ""
+  url: "/assets/publications/lsp.pdf"
   code: ""
   image: "/assets/publications/lsp.png"
   abstract: "Discrete graph diffusion models corrupt the graph structure through a Markovian noise model, combined with the exchangeability requirement the terminal distribution is an E-R graph. We show that any GNN denoiser applied to an E-R graph approximately outputs an E-R graph, making effective denoising difficult. We address the root cause by introducing the Latent Sociability Prior (LSP) and a joint diffusion process that co-evolves latent node sociability variables and graph structure, removing edge independence while preserving exchangeability."
