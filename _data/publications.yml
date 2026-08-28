@@ -6,7 +6,7 @@
   venue: "Pre-print'26"
   url: ""
   code: ""
-  image: "/assets/publications/condmem.pdf"
+  image: "/assets/publications/GDM_secretly_memorizing.pdf"
   abstract: "Empirical evidence shows you can train a graph diffusion model on just one graph and still generalize without memorizing the training graph. Existing works on equivariant denoisers suggests GDMs cannot copy their training graphs exactly owing to permutation symmmetries and sample-level metrics suggest generalization. But what if your GDM is secretly memorizing the training graph?"
   bibtex: |
         @misc{
@@ -16,8 +16,6 @@
         booktitle={Pre-print},
         year={2026}
         }
-
-
 
 - title: "When Edge-Independence Fails: Joint Diffusion with Latent Sociability Priors."
   authors:    
