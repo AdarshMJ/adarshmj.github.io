@@ -5,21 +5,28 @@ image: /assets/profile.jpeg
 
 <img src="{{ page.image }}" style="float: right; width: 25%; padding: 6px; margin: 0 0 0 20px; border-radius: 10px;"> 
 
-Hi 👋  
+Hi 👋
 
-I'm Adarsh Jamadandi. I'm a CNRS doctoral researcher at IRISA, Rennes, France working on Diffusion models for graphs under the supervision of [Dr. Nicolas Keriven](https://nkeriven.github.io).
+I'm Adarsh Jamadandi, a CNRS doctoral researcher at IRISA, Rennes, working on
+diffusion models for graphs with [Dr. Nicolas Keriven](https://nkeriven.github.io).
+I study the learning dynamics of discrete diffusion models for graph generation —
+when they generalize versus memorize — with the goal of building more efficient
+models that scale to large graphs.
 
-I am interested in understanding the learning dynamics (generalization vs. memorization) in discrete diffusion models applied to graph generation which can enable to design more efficient models and can be used to scale to large-scale graph generation.
+Previously I was a research assistant at [SprintML](https://sprintml.com/team/)
+with Franziska Boenisch and Adam Dziedzic, where we built the first framework for
+studying memorization in GNNs. 
 
-Before starting my PhD, I worked as a research assistant at the [SprintML Lab](https://sprintml.com/team/) with Dr. Franziska Boenisch and Dr. Adam Dziedzic on proposing the first-ever framework to study memorization in graph neural networks.
+I did my Master's at Saarland University, with a
+thesis at the [Relational ML Lab](https://relationalml.github.io) under Rebekka
+Burkholz on mitigating over-squashing and over-smoothing to improve GNN
+generalization. 
 
-I completed my Master's in Computer Science at Saarland University, Germany, where I wrote my thesis at the Relational Machine Learning Lab with [Dr. Rebekka Burkholz](https://relationalml.github.io) where I proposed techniques to improve generalizability of GNNs by mitigating over-squashing and over-smoothing.
+I obtained my Bachelor's in Electronics and Communication Engineering from India, with a thesis on video
+anomaly detection advised by
+[Dr. Uma Mudenagudi](https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en).
 
-
-I hold a Bachelor's degree in Electronics and Communication Engineering from India. 
-My thesis was on anomaly detection in videos with [Dr. Uma Mudenagudi](https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en) as my advisor.
-
-My [CV](assets/AdarshCVNew.pdf) can be found here.
+My CV can be found [here](assets/AdarshCVNew.pdf) .
 
 #### Updates
 
