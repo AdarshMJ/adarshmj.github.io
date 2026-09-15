@@ -1,3 +1,15 @@
+- category: "Discrete Diffusion for Graph Generation"
+  description: "Understanding the failure modes of discrete graph diffusion models."
+  image: "/assets/publications/lsp.jpg"
+  talks:
+    - title: Deconstructing Discrete Diffusion: From Prior to Learning Dynamics
+      venue: "Machine Learning and Signal Processing on Graphs,CIRM, Marseille, France."
+      date: "September 25, 2026"
+      type: "Invited Talk"
+      url: "https://www.cirm-math.fr/Schedule/screen_display.php?id_renc=3653"
+      image: "/assets/publications/cirm.png"
+      abstract: "Discrete graph diffusion models (GDMs) have emerged as powerful generative models for graph structure generation. While most recent advances have focused on improving generation quality through greater model expressivity and architectural design, in this talk I will take a different perspective and examine fundamental limitations of the standard diffusion formulation. In unconditional graph generation without node features, edge-independent diffusion together with exchangeability severely restricts the terminal distribution, effectively leading to an Erdős–Rényi prior. We show that this induces a fixed-point pathology in the large-graph regime: starting from an Erdős–Rényi graph, common denoising architectures tend to produce nearly homogeneous edge predictions, making it difficult to recover higher-order graph structure. To address this limitation, we propose a joint diffusion framework that co-evolves continuous latent variables alongside the discrete graph structure, combining the strengths of latent diffusion and graph-space discrete diffusion. The framework is built around a new prior inspired by inhomogeneous random graph models, which we call the Latent Sociability Prior (LSP). I will discuss how this construction can help GDMs escape the fixed-point pathology and recover richer graph structure. I will then turn to the learning dynamics of graph diffusion models and ask whether GDMs also exhibit memorization. In a controlled single-graph setting, we show that memorization can emerge even when conventional generation metrics suggest otherwise, and study how its onset relates to the learning of graph structure. Together, these results provide two complementary views of discrete graph diffusion: the structural limitations built into the generative formulation, and the dynamics of what the denoising model learns from data."
+
 - category: "Memorization in Graph Neural Networks"
   description: "Talks covering memorization phenomena and their implications in Graph Neural Networks."
   image: "/assets/publications/ncmemo.jpg"
