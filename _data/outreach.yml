@@ -1,14 +1,15 @@
-- category: "Discrete Diffusion for Graph Generation"
-  description: "Understanding the failure modes of discrete graph diffusion models."
-  image: "/assets/publications/lsp.png"
+- category: "Memorization in Graph Neural Networks"
+  description: "Talks covering memorization phenomena and their implications in Graph Neural Networks."
+  image: "/assets/publications/ncmemo.jpg"
   talks:
-    - title: Deconstructing Discrete Diffusion: From Prior to Learning Dynamics
-      venue: "Machine Learning and Signal Processing on Graphs,CIRM, Marseille, France."
-      date: "September 25, 2026"
+    - title: Memorization in Graph Neural Networks
+      venue: "Curves and Surfaces, Saint-Malo, France."
+      date: "June 12, 2026"
       type: "Invited Talk"
-      url: "https://www.cirm-math.fr/Schedule/screen_display.php?id_renc=3653"
-      image: "/assets/publications/marseille.jpg"
-      abstract: "Demonstrate the existence of a fixed-point pathology in current discrete diffusion models for graph generation and also study memorization in graph diffusion models."
+      url: "https://cs2026.sciencesconf.org/program"
+      image: "/assets/publications/curves.png"
+      abstract: "Invited Talk on Memorization in Graph Neural Networks."
+      
 - category: "Memorization in Graph Neural Networks"
   description: "Talks covering memorization phenomena and their implications in Graph Neural Networks."
   image: "/assets/publications/ncmemo.jpg"
