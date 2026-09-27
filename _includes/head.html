@@ -1,19 +1,61 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% capture meta_title %}{% if page.url == '/' %}{{ site.seo_title | default: site.title }}{% elsif page.title %}{{ page.title }} | {{ site.full_name }}{% else %}{{ site.seo_title | default: site.title }}{% endif %}{% endcapture %}
+{% assign meta_description = page.description | default: site.description %}
+{% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+{% assign social_image = page.social_image | default: site.social_image %}
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+<title>{{ meta_title | strip | escape }}</title>
+<meta name="description" content="{{ meta_description | strip_html | strip_newlines | escape }}">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+<link rel="canonical" href="{{ canonical_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-</head>
+<meta property="og:title" content="{{ meta_title | strip | escape }}">
+<meta property="og:description" content="{{ meta_description | strip_html | strip_newlines | escape }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:type" content="{% if page.url == '/' %}profile{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.full_name | escape }}">
+{% if social_image %}<meta property="og:image" content="{{ social_image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+{% if social_image %}<meta property="og:image:alt" content="Portrait of {{ site.full_name | escape }}">{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ meta_title | strip | escape }}">
+<meta name="twitter:description" content="{{ meta_description | strip_html | strip_newlines | escape }}">
+{% if site.twitter_username %}<meta name="twitter:creator" content="@{{ site.twitter_username }}">{% endif %}
+{% if social_image %}<meta name="twitter:image" content="{{ social_image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+{% if social_image %}<meta name="twitter:image:alt" content="Portrait of {{ site.full_name | escape }}">{% endif %}
+
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#person",
+  "name": {{ site.full_name | jsonify }},
+  "url": "{{ site.url }}/",
+  "image": "{{ site.social_image | prepend: site.baseurl | prepend: site.url }}",
+  "jobTitle": "Doctoral Researcher",
+  "description": {{ site.description | strip_newlines | jsonify }},
+  "affiliation": [
+    { "@type": "Organization", "name": "IRISA", "url": "https://www.irisa.fr/" },
+    { "@type": "Organization", "name": "CNRS", "url": "https://www.cnrs.fr/" }
+  ],
+  "sameAs": [
+    "https://orcid.org/{{ site.orcid_id }}",
+    "https://scholar.google.com/citations?user={{ site.google_scholar_username }}",
+    "https://github.com/{{ site.github_username }}",
+    "https://www.linkedin.com/in/{{ site.linkedin_username }}",
+    "https://twitter.com/{{ site.twitter_username }}"
+  ]
+}
+</script>
+{% endif %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
