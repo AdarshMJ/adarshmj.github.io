@@ -3,7 +3,7 @@
     - "Adarsh Jamadandi"
     - "Nicolas Keriven"
   year: 2026
-  venue: "Pre-print'26"
+  venue: "Pre-print"
   url: "/assets/publications/GDM_secretly_memorizing.pdf"
   code: ""
   image: "/assets/publications/condmem.png"
@@ -23,7 +23,7 @@
     - "Nicolas Keriven"
     - "Aline Roumy"
   year: 2026
-  venue: "NeurIPS'26"
+  venue: "NeurIPS"
   url: "/assets/publications/lsp.pdf"
   code: ""
   image: "/assets/publications/lsp.png"
@@ -44,7 +44,7 @@
     - "Adam Dziedzic"
     - "Franziska Boenisch"
   year: 2025
-  venue: "NeurIPS'25"
+  venue: "NeurIPS"
   url: "https://openreview.net/forum?id=jAJv3CaS4f"
   code: "https://github.com/AdarshMJ/MemorizationinGNNs"
   image: "/assets/publications/ncmemo.jpg"
@@ -104,8 +104,8 @@
   authors:
     - "Adarsh Jamadandi"
     - "Uma Mudenagudi"
-  year: 2020
-  venue: "AAAI Student Poster, 2021."
+  year: 2021
+  venue: "AAAI Student Poster"
   url: "https://aaai.org/papers/15801-dethroning-aristocracy-in-graphs-via-adversarial-perturbations-student-abstract/"
   image: "/assets/publications/graphofthrones.jpg"
   abstract: "We investigate how adversarial perturbations affect graph hyperbolicity. Hyperbolic embeddings have gained popularity for hierarchical graph data due to their geometric inductive biases, with models like Poincaré Ball and Hyperboloid being widely applied. Graph hyperbolicity indicates suitability for hyperbolic embedding—lower values enable distortion-free representations. We study adversarial perturbations that poison graph structure, making hyperbolic geometry ineffective for representation learning. To address this vulnerability, we propose using Lorentzian manifolds and empirically demonstrate their superior ability to capture hierarchical relationships under adversarial conditions. This is the first work exploring the relationship between adversarial attacks and hyperbolicity while providing a solution to mitigate such vulnerabilities."
@@ -122,7 +122,7 @@
     - "Adarsh Jamadandi"
     - "Uma Mudenagudi"
   year: 2019
-  venue: "Computer Vision and Pattern Recognition (CVPR Workshop, Oral)"
+  venue: "CVPR Workshop"
   url: "https://openaccess.thecvf.com/content_CVPRW_2019/papers/AAMVEM/Jamadandi_Exemplar-based_Underwater_Image_Enhancement_Augmented_by_Wavelet_Corrected_Transforms_CVPRW_2019_paper.pdf"
   image: "/assets/publications/underwater.jpg"
   abstract: "We propose a novel deep learning framework for underwater image enhancement using wavelet-corrected transformations. Underwater images suffer from unique distortions due to wavelength-dependent light absorption (primarily red wavelengths) and scattering by suspended particles, resulting in greenish-blue hues and non-linear quality degradation. Our encoder-decoder architecture incorporates wavelet pooling and unpooling to perform progressive whitening and coloring transforms for realistic style transfer. We provide theoretical justification for why wavelet transforms excel at signal reconstruction and demonstrate state-of-the-art results on popular underwater datasets using SSIM, PSNR, and UCIQE metrics.."
@@ -142,7 +142,7 @@
     - "Sunidhi Kotturshettar"
     - "Uma Mudenagudi"
   year: 2018
-  venue: "11th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP '18)"
+  venue: "ICVGIP"
   url: "https://doi.org/10.1145/3293353.3293354"
   image: "/assets/publications/videopred.gif"
   abstract: "In this paper we propose a multi-scale video prediction framework with adversarial training for detecting anomalies in videos. Anomalous events are those which do not conform to normal behavior. Supervised learning framework cannot account for all the unusual activities since a universal definition of anomaly cannot be adopted. To tackle this problem, we propose an unsupervised approach to learn the internal representation of videos and use this learning to accurately predict the future-frames of the videos. We train our network adversarially on videos consisting of only normal activities. When our network encounters unusual or irregular activities the generated frames consists of fuzzy regions where the irregular activities are present. These fuzzy regions consequently lower the peak signal to noise ratio (PSNR) of the generated frames. The PSNR values are normalized to have values between 0 and 1 and is used as a regularity score to tag a frame as anomalous or not-anomalous. We provide quantitative and qualitative evaluation of the proposed framework and also introduce Earth Mover's Distance as a new evaluation metric to assess the quality of the images generated. We demonstrate our framework on UCSD Pedestrian dataset and show that we achieve comparable results."
