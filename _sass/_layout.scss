@@ -183,13 +183,15 @@
 
 .profile-photo {
     float: right;
-    width: 25%;
-    padding: 6px;
+    width: 160px;
+    max-width: 30vw;
+    height: auto;
     margin: 0 0 0 20px;
     border-radius: 10px;
 
     @include media-query($on-palm) {
-        width: 38%;
+        width: 120px;
+        max-width: 36vw;
     }
 }
 
@@ -201,25 +203,19 @@
     font-weight: 700;
 }
 
-.selected-research {
-    margin-top: 1rem;
+.selected-research-list {
+    margin: 0 0 0 $spacing-unit;
+
+    li {
+        margin-bottom: 0.65rem;
+        padding-left: 0.2rem;
+    }
 }
 
-.selected-research .publication-item {
-    margin-bottom: 1rem;
-}
-
-.selected-research .pub-abstract {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    max-height: 4.2rem;
-    overflow: hidden;
-}
-
-.selected-research .pub-links {
-    opacity: 1;
-    max-height: 100px;
+.selected-research-venue {
+    display: block;
+    color: $grey-color;
+    font-size: $small-font-size;
 }
 
 .all-publications-link {

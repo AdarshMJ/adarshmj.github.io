@@ -1,28 +1,10 @@
-<div class="publications-list selected-research">
+<ol class="selected-research-list">
   {% for pub in site.data.publications limit:3 %}
-  <article class="publication-item">
-    <div class="pub-row">
-      <div class="pub-image">
-        <img src="{{ pub.image | prepend: site.baseurl }}" alt="Visual summary for {{ pub.title | escape }}" class="pub-thumbnail">
-      </div>
-      <div class="pub-content">
-        <h3 class="pub-title">{{ pub.title }}</h3>
-        <p class="pub-venue"><strong>{{ pub.venue }}</strong> ({{ pub.year }})</p>
-        <p class="pub-abstract">{{ pub.abstract }}</p>
-        <div class="pub-links">
-          <a href="{{ pub.url }}" class="pub-link paper-link"{% unless pub.url contains site.url %} target="_blank" rel="noopener noreferrer"{% endunless %}>
-            <i class="fas fa-file-pdf" aria-hidden="true"></i> Paper
-          </a>
-          {% if pub.code and pub.code != empty %}
-          <a href="{{ pub.code }}" class="pub-link code-link" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-github" aria-hidden="true"></i> Code
-          </a>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </article>
+  <li>
+    <a href="{{ pub.url }}"{% unless pub.url contains site.url %} target="_blank" rel="noopener noreferrer"{% endunless %}>{{ pub.title }}</a>
+    <span class="selected-research-venue">{{ pub.venue }} {{ pub.year }}</span>
+  </li>
   {% endfor %}
-</div>
+</ol>
 
 <p class="all-publications-link"><a href="{{ '/publications/' | prepend: site.baseurl }}">View all publications →</a></p>

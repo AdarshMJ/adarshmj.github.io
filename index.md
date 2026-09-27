@@ -8,7 +8,7 @@ social_image: /assets/adarsh.jamadandi.jpg
 description: Adarsh Jamadandi is a CNRS doctoral researcher at IRISA studying graph diffusion models, memorization, generalization, and scalable graph generation.
 ---
 
-<img src="{{ page.image }}" alt="Adarsh Jamadandi" class="profile-photo">
+<img src="{{ page.image }}" alt="Adarsh Jamadandi" class="profile-photo" width="160" height="213">
 
 Hi 👋
 
