@@ -50,7 +50,7 @@ layout: default
                   <i class="fas fa-file-pdf"></i> Paper
                 </a>
               {% endif %}
-              {% if pub.code %}
+              {% if pub.code and pub.code != empty %}
                 <a href="{{ pub.code }}" class="pub-link code-link" target="_blank">
                   <i class="fab fa-github"></i> Code
                 </a>

@@ -1,9 +1,14 @@
 ---
 layout: page
+title: About
+order: 1
+hide_title: true
 image: /assets/profile.jpeg
+social_image: /assets/adarsh.jamadandi.jpg
+description: Adarsh Jamadandi is a CNRS doctoral researcher at IRISA studying graph diffusion models, memorization, generalization, and scalable graph generation.
 ---
 
-<img src="{{ page.image }}" style="float: right; width: 25%; padding: 6px; margin: 0 0 0 20px; border-radius: 10px;"> 
+<img src="{{ page.image }}" alt="Adarsh Jamadandi" class="profile-photo">
 
 Hi 👋
 
@@ -26,7 +31,17 @@ I obtained my Bachelor's in Electronics and Communication Engineering from India
 anomaly detection advised by
 [Dr. Uma Mudenagudi](https://scholar.google.co.in/citations?user=xBaqwmkAAAAJ&hl=en).
 
-My CV can be found [here](assets/AdarshCVNew.pdf) .
+<nav class="profile-links" aria-label="Research profiles and curriculum vitae">
+  <a href="https://scholar.google.com/citations?user={{ site.google_scholar_username }}">Google Scholar</a>
+  <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
+  <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+  <a href="{{ '/assets/AdarshCVNew.pdf' | prepend: site.baseurl }}">CV</a>
+</nav>
+
+#### Selected Research
+
+{% include selected-research.html %}
 
 #### Updates
 

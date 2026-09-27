@@ -6,7 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Adarsh Jamadandi | Graph Machine Learning Researcher"
+title: Adarsh Jamadandi
+seo_title: "Adarsh Jamadandi | Graph Machine Learning Researcher"
 full_name: Adarsh Jamadandi
 email: adarsh.jam@gmail.com
 description: Adarsh Jamadandi is a CNRS doctoral researcher at IRISA working on
@@ -18,6 +19,8 @@ github_username:  adarshmj
 twitter_username: adarshjamadandi
 linkedin_username: adarsh-jamadandi
 google_scholar_username: dnA8qFkAAAAJ
+orcid_id: 0000-0002-0267-2244
+social_image: /assets/adarsh.jamadandi.jpg
 include: ['_pages']
 
 # Build settings
