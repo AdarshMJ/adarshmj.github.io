@@ -33,10 +33,6 @@ anomaly detection advised by
 
 My CV can be found <a href="{{ '/assets/AdarshCVNew.pdf' | prepend: site.baseurl }}">here</a>
 
-#### Selected Research
-
-{% include selected-research.html %}
-
 #### Updates
 
 {% include updates.html %}
