@@ -3,7 +3,7 @@
     - "Adarsh Jamadandi"
     - "Nicolas Keriven"
   year: 2026
-  venue: "Pre-print"
+  venue: "BeNTo: Beyond Next Token Prediction, NeurIPS Workshop."
   url: "/assets/publications/GDM_secretly_memorizing.pdf"
   code: ""
   image: "/assets/publications/condmem.png"
@@ -13,7 +13,7 @@
         jamadandi2026secretmemorization,
         title={Your Discrete Graph Diffusion Model is Secretly Memorizing},
         author={Adarsh Jamadandi and Nicolas Keriven},
-        booktitle={Pre-print},
+        booktitle={Beyond Next Token Prediction, NeurIPS Workshop},
         year={2026}
         }
 
